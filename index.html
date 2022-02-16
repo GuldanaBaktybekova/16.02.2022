@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
   </head>
   <body>
@@ -15,22 +16,37 @@
 
       <div>
         <label for="employed">
-          <input type="checkbox" id="employed "/> Employed 
+          <input type="checkbox" id="employed " /> Employed
         </label>
+      </div>
+      <div>
+        <label for="gender-undisclosed">
+          <input type="radio" name="gender" id="gender-undisclosed" checked> Classified
+        </label>
+        <label for="gender-male">
+          <input type="radio" name="gender" id="gender-male" checked> Male
+        </label>
+        <label for="gender-female">
+          <input type="radio" name="gender" id="gender-female" checked> Female
+        </label>
+
       </div>
       <div>
         <label for="city"></label>
         <select id="city">
-        <option>Bishkek</option>
-        <option>Karakol</option>
-        <option>Osh</option>
-        <option>Jalal-Abad</option>
-        <option>Naryn</option>  
-        <option>Talas</option>
-        <option>Batken</option>
-      </select>
+          <option>Bishkek</option>
+          <option>Karakol</option>
+          <option>Osh</option>
+          <option>Jalal-Abad</option>
+          <option>Naryn</option>
+          <option>Talas</option>
+          <option>Batken</option>
+        </select>
       </div>
     </form>
+
+
+    <div id="example"></div>
 
     <script src="./script.js"></script>
   </body>
