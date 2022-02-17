@@ -196,3 +196,7 @@
 document.getElementById('example').addEventListener('click', function(){
   this.className = "border";
 });
+document.getElementById('example').addEventListener('dblclick', function(event){
+ 
+  this.className = "square";
+});

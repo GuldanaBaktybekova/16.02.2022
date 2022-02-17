@@ -1,6 +1,27 @@
+
+.good {
+  border-color: green;
+}
+.bad {
+  border-color: red;
+}
+
 #example {
-  background-color: green;
   width: 100px;
   height: 100px;
+  background-color: green;
+  margin: 20px;
+}
+
+
+.border {
+  border-radius: 100%;
+  position: absolute;
+ 
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: green;
   margin: 20px;
 }
